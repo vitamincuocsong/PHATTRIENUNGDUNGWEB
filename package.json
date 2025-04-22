@@ -2,15 +2,14 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "start": "nodemon server.js"
-  },
+  
   "author": "phuchau",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.1",
@@ -20,5 +19,8 @@
     "globals": "^16.0.0",
     "nodemon": "^3.1.9",
     "prettier": "^3.5.3"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
   }
 }
